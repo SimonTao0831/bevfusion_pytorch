@@ -1,8 +1,0 @@
-# ninja log v7
-0	1360	1776393509664741025	/home/ximeng/Documents/bevfusion_pytorch/build/temp.linux-x86_64-3.10/bevfusion/ops/bev_pool/src/bev_pool_cuda.o	f99ffd95ee004b9d
-0	10108	1776393509664741025	/home/ximeng/Documents/bevfusion_pytorch/build/temp.linux-x86_64-3.10/bevfusion/ops/bev_pool/src/bev_pool.o	21c6338bb7fd0869
-3	11491	1776393520027601898	/home/ximeng/Documents/bevfusion_pytorch/build/temp.linux-x86_64-3.10/bevfusion/ops/voxel/src/voxelization_cpu.o	98d6780604dd04e4
-3	11576	1776393520027601898	/home/ximeng/Documents/bevfusion_pytorch/build/temp.linux-x86_64-3.10/bevfusion/ops/voxel/src/voxelization.o	e0f881507256a310
-2	11644	1776393520026601911	/home/ximeng/Documents/bevfusion_pytorch/build/temp.linux-x86_64-3.10/bevfusion/ops/voxel/src/scatter_points_cpu.o	9329f55796c028e6
-2	40637	1776393520026601911	/home/ximeng/Documents/bevfusion_pytorch/build/temp.linux-x86_64-3.10/bevfusion/ops/voxel/src/scatter_points_cuda.o	edd44d43df4d96b4
-3	42735	1776393520027601898	/home/ximeng/Documents/bevfusion_pytorch/build/temp.linux-x86_64-3.10/bevfusion/ops/voxel/src/voxelization_cuda.o	d588f76f526a9f46
