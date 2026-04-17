@@ -1,0 +1,16 @@
+# ignore model checkpoint files
+# *.pt
+*.ckpt
+*.pth
+*.h5
+
+# ignore Python cache files
+**/__pycache__/
+*.py[cod]
+
+# ignore files
+.DS_Store
+.vscode/
+.idea/
+.gitleaks.toml
+bev_pool.egg-info/
