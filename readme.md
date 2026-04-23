@@ -61,7 +61,7 @@ The process will automatically download the [original checkpoint](https://downlo
 
 For a quick demo, please open [`quick_demo.ipynb`](quick_demo.ipynb). It provides five available demo indices including 0, 100, 200, 300, and 400.
 
-If you use [`demo.ipynb`](demo.ipynb), you must download the nuScenes dataset first. Ensure that `DATA_ROOT` is updated to the path where your dataset is stored.
+If you use [`demo.ipynb`](demo.ipynb), you must download the [nuScenes dataset](https://www.nuscenes.org/nuimages#download) first. Ensure that `DATA_ROOT` is updated to the path where your dataset is stored.
 
 **Note**: The nuScenes LiDAR coordinates must be converted to the MMDetection3D LiDAR coordinate system before being fed into the model. Please refer to the [`demo.ipynb`](demo.ipynb) code for implementation details.
 
