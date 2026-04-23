@@ -28,7 +28,7 @@ Then activate the environment and install the required libraries.
 conda activate bevfusion_pytorch
 ```
 
-Install [PyToch](https://pytorch.org/get-started/locally/) based on your GPU.
+Install [PyTorch](https://pytorch.org/get-started/locally/) based on your GPU.
 ```bash
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ```
@@ -70,11 +70,10 @@ If you use `demo.ipynb`, you must download the nuScenes dataset first. Ensure th
 
 The results should be identical to the original MMDetection3D version. Some examples are provided below as a reference.
 
-<img src="./figures/0.png" alt="0" width="32%" align="center" />
-<img src="./figures/100.png" alt="100" width="32%" align="center" />
-<img src="./figures/200.png" alt="200" width="32%" align="center" />
+<p align="center">
+  <img src="./figures/0.png" width="32%" /><img src="./figures/100.png" width="32%" /><img src="./figures/200.png" width="32%" />
+</p>
 
-
-<img src="./figures/0_op3d.png" alt="0_op3d" width="32%" align="center" />
-<img src="./figures/100_op3d.png" alt="100_op3d" width="32%" align="center" />
-<img src="./figures/200_op3d.png" alt="200_op3d" width="32%" align="center" />
+<p align="center">
+  <img src="./figures/0_op3d.png" width="32%" /><img src="./figures/100_op3d.png" width="32%" /><img src="./figures/200_op3d.png" width="32%" />
+</p>
