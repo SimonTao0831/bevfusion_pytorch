@@ -52,9 +52,8 @@ class BEVFusion(nn.Module):
         '.ffn.layers.1': '.mlp.3',
     }
     
-    def __init__(self, include_camera=True):
+    def __init__(self):
         super(BEVFusion, self).__init__()
-        self.include_camera = include_camera
         self.lidar_line = LidarLine()
         self.camera_line = CameraLine()
         self.bev_line = BEVLine()
@@ -74,7 +73,7 @@ class BEVFusion(nn.Module):
         
         return {
             "lidar_feats": lidar_feats,
-            "cam_feats": cam_feats if self.include_camera else None,
+            "cam_feats": cam_feats,
             "bev_feats": bev_feats,
             "tgt": tgt,
             "bbox_preds": bbox_preds,

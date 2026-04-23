@@ -13,4 +13,7 @@
 .vscode/
 .idea/
 .gitleaks.toml
+
 bev_pool.egg-info/
+build/
+*.so
